@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap>
+  <siteMapNode title="Root" description="(do not display)" url="~/">
+    <siteMapNode title="Home" description="Home" url="~/Default.aspx" />
+    
+    <siteMapNode title="Products" description="Our products"
+        url="~/Products.aspx">
+      <siteMapNode title="Hardware" description="Hardware choices"
+          url="~/Hardware.aspx" />
+      <siteMapNode title="Software" description="Software choices"
+          url="~/Software.aspx" />
+    </siteMapNode>
+    
+    <siteMapNode title="Services" description="Services we offer"
+        url="~/Services.aspx">
+     <siteMapNode title="Training" description="Training classes"
+          url="~/Training.aspx" />
+      <siteMapNode title="Consulting" description="Consulting services"
+          url="~/Consulting.aspx" />
+      
+      <siteMapNode title="MemeberServices" description="Memeber services"
+          url="~/MemberServices/Default.aspx">
+        <siteMapNode title="Product Downloads" description="Download Products"
+        url="~/MemberServices/ProductDownloads.aspx"/>
+        <siteMapNode title="Registered Products" description="Registered Products"
+        url="~/MemberServices/RegisteredProducts.aspx"/>
+        
+      </siteMapNode>
+      <siteMapNode title="Support" description="Supports plans"
+          url="~/Support.aspx">
+        <siteMapNode title="Support Tickets" description="Supports plans"
+        url="~/MemberServices/SupportTickets.aspx"/>
+
+      </siteMapNode>
+      
+      
+    </siteMapNode>
+    <siteMapNode title="About" description="About" url="~/About.aspx" />
+  </siteMapNode>
+</siteMap>
